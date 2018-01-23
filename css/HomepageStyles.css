@@ -1,0 +1,134 @@
+*{
+    margin: 0 0;
+}
+/********GENERAL*******/
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 60px;
+    color: cadetblue;
+}
+p{
+    padding: 15px 25px;
+    font-size: 18px;
+    line-height:  2;
+    color: antiquewhite;
+
+}
+
+.hightlight {
+    color:  firebrick;
+    font-style: italic;
+    font-weight:bold;
+}
+/********HEADER*******/
+#mainLogo{
+    float:  left;
+}
+nav ul{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top:  50px;
+    padding-right: 25px;
+    float: right;
+}
+nav ul li{
+    text-transform: uppercase;
+    display:  inline;
+    list-style-type:  none;
+    padding-left: 100px
+}
+header{
+    height: 150px;
+    background-color:cadetblue;
+    border-bottom: solid 10px darkslategrey;
+}
+
+/********BODY*******/
+
+.container{
+    width:  80%;
+    margin: auto;
+    overflow:  hidden;
+}
+
+#mainImage {
+    width:  100%;
+    height:  300px;
+    background-color: darkslategrey;
+}
+#mainImage h2 {
+    font-size: 75px;
+    padding-top: 25px;
+    text-align: center;
+    color: cadetblue;
+    text-shadow: 1px 1px 2px rgb(121, 103, 105);
+}
+#mainImage p {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+
+#mainContent {
+    
+    width: 100%;
+    height:  auto;
+    background-color: dimgrey;
+    border-bottom: solid 10px white;
+}
+
+#skillsets{
+    margin: auto auto;
+    padding: 15px 10px;
+    width: 500px;
+    height: auto;
+    background-color: cadetblue;
+    border-radius: 25px;
+}
+
+#skillsets li{
+    list-style-type: square;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    color: burlywood;
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    color: #cccccc;
+}
+#imageGallary{
+    width: 50%;
+    margin:  auto;
+    padding: 15px 15px;
+    background-color: cadetblue;
+    border-radius:  50px;
+    margin-bottom: 50px;
+}
+#imageGallary img{
+    padding: 10px 30px;
+}
+
+
+footer{
+    height: 150px;
+    background-color: black;
+}
+#copyright{
+    
+    display: inline;
+    float: left;
+    color:  white;
+/*    background-color: aqua;*/
+}
+#social-links{
+    margin-top: -50px;
+    float: right;
+    
+}
