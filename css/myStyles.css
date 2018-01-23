@@ -1,0 +1,68 @@
+.red{
+    color: white;
+    background-color:  red;
+}
+.green{
+    color: white;
+    background-color:  green;
+}.blue{
+    color: white;
+    background-color:  blue;
+}
+
+/********HEADER*******/
+header{
+    height: 110px;
+    background-color:cadetblue;
+    border-bottom: solid 10px darkslategrey;
+}
+#mainLogo{
+    float:  left;
+}
+nav ul{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top:  50px;
+    padding-right: 25px;
+    float: right;
+}
+nav ul li{
+    text-transform: uppercase;
+    display:  inline;
+    list-style-type:  none;
+    padding-left: 100px
+}
+
+nav ul li a  {
+    text-decoration: none;
+    color:  white;
+    
+}
+nav ul li a:hover {
+    color:  firebrick;
+    font-style: italic;
+    font-weight:bold;
+}
+
+
+
+footer{
+    height: 150px;
+    margin-top: 75px;
+    background-color: black;
+}
+#copyright{
+    
+    display: inline;
+    float: left;
+    color:  white;
+/*    background-color: aqua;*/
+}
+#social-links{
+    padding-top: 25px;
+    float: right;
+    
+}
+#social-links ul li{
+    display: inline;
+    padding-right: 50px;
+}
