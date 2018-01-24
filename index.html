@@ -1,58 +1,87 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Title</title>
-     <meta charset="UTF-8">
-     
-  <meta name="author" content="WebDev">
-     <link href="css/styles.css" rel="stylesheet" type="text/css" />
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</head>
-<body>
-<!-- container -->
- <div id="container">
- <!--  header -->
- <div id="header">
-  <div id="logo">Logo</div>
-  <div id="top_info">Top Info</div>
-  <div id="navbar">
-   <ul>
-    <li><a href="#">Youtube</a></li>
-    <li><a href="#">Twitter</a></li>
-    <li><a href="#">Game Jolt</a></li>
-    <li><a href="#">Git Hub</a></li>
-   </ul>
-   </div>
-  </div>
-  <!-- content area -->
-  <div id="content_area">
-   <div id="banner">Banner</div>
-   <div id="left_col">
-       <h1 id="welcome">Welcome</h1>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus vitae nisi vitae hendrerit. Proin placerat neque sed porta facilisis. Nam auctor scelerisque dui eu efficitur. Proin dictum orci non augue facilisis posuere. Nulla et arcu odio. Mauris pretium, lacus a interdum porta, lacus sem feugiat mi, at accumsan erat odio quis enim. Vivamus dui purus, mattis sit amet magna ac, tristique sollicitudin nunc. Integer pellentesque cursus ultricies. Vestibulum pharetra egestas metus ut venenatis. Pellentesque at tellus orci. Sed volutpat ipsum tellus, ac congue magna congue sed. Vestibulum nec feugiat nulla. Praesent porttitor maximus cursus. Cras sed ligula eget ipsum varius dictum nec vel quam.</p>
-       
-       <div id="imageGallary">
-        <img src="Images/placeholder.png">
-           <img src="Images/placeholder.png">
-           <img src="Images/placeholder.png">
-           <img src="Images/placeholder.png">
-       </div>
-       
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+      <link rel="stylesheet" href="css/HomepageStyles.css" type="text/css">
+    <title>Brian Pajak | Homepage</title>
+  </head>
+    <header>
+         <img src="Images/logo.png" alt="LOGO" id="mainLogo">
+        <nav >
+            
+            <ul>
+                <li><a href="#" class="active">home</a></li>
+                <li><a href="#">projects</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+  <body>
+    <div class="jumbotron">
+        <div class="container">
+            <img src="Images/jumbo960_300.png">
+             <h2>WELCOME MESSAGE</h2>
+        <p>A brief description of the various reasons why <span class="hightlight">I am so awesome!</span></p>
+        </div>
+    </div>
     
+    <div class="container">
+        <h1 class= "page-header">Welcome</h1>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce faucibus vitae nisi vitae hendrerit. Proin placerat neque sed porta facilisis. Nam auctor scelerisque dui eu efficitur. Proin dictum orci non augue facilisis posuere. Nulla et arcu odio. Mauris pretium, lacus a interdum porta, lacus sem feugiat mi, at accumsan erat odio quis enim.</p> 
+    </div> <!-- container-->    
+      
+      <hr>
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-4">
+                    <h2>About</h2>
+                    <p>Vivamus dui purus, mattis sit amet magna ac, tristique sollicitudin nunc. Integer pellentesque <mark>cursus ultricies. Vestibulum pharetra egestas metus</mark> ut venenatis. Pellentesque at tellus orci. Sed volutpat ipsum tellus, ac congue magna congue sed. Vestibulum nec feugiat nulla. Praesent porttitor maximus cursus. Cras sed ligula eget ipsum varius dictum nec vel quam.</p></div>
+                <div class="col-md-6"><img src="Images/secionImage.png"></div>
+            </div>
+        </div>
+    </section>
+        
+        <hr>
+        
+     <section id="Skillset">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><img src="Images/secionImage.png"></div>
+                <div class="col-md-6">
+                    <h2>Skills</h2>
+                    <p>Vivamus dui purus, mattis sit amet magna ac, tristique sollicitudin nunc. Integer pellentesque <mark>cursus ultricies. Vestibulum pharetra egestas metus</mark> ut venenatis. Pellentesque at tellus orci. Sed volutpat ipsum tellus, ac congue magna congue sed. Vestibulum nec feugiat nulla. Praesent porttitor maximus cursus. Cras sed ligula eget ipsum varius dictum nec vel quam.</p></div>
+            </div>
+        </div>
+    </section>
 
-    </div>
-      <div id="right_col">
-          <h1>Side Projects</h1>
-          <ul>
-              <li>Games</li>
-              <li>Sites</li>
-              <li>Apps</li>
-          </ul>
-    </div>
-  </div>
-  <!-- footer -->
-  <div id="footer">Footer</div>
- </div><!-- end container -->
-<script src="practice.js"></script>
-</body>
+    <footer>
+        <div class="container">
+            <p id="copyright">&copy BRIAN PAJAK 2018</p>
+        <nav id="social-links">
+            
+            <ul>
+                <li><a href="https://gamejolt.com/@MasterKrepta" target="_blank"><img src="Images/GameJolt_Social_Icon_64.png" alt="GameJolt"></a></li>
+                <li><a href="https://github.com/MasterKrepta" target="_blank"><img src="Images/GitHub-Mark-64px.png"   alt="GitHub"></a></li>
+                <li><a href="https://twitter.com/MasterKrepta" target="_blank"><img src="Images/Twitter_Social_Icon_64.png" alt="Twitter"></a></li>
+                
+            </ul>
+
+            </nav>
+            
+</div>
+    </footer>
+            
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
