@@ -38,7 +38,10 @@ p{
 /********JUMBOTRON*******/
 .jumbotron {
     height: 400px;
+    background: url("/Images/skyline.jpg") no-repeat 0px -650px;
+    background-size: 100%;
 }
+
 .jumbotron h2 {
     text-align: left;
     padding: 50 50%;
@@ -86,10 +89,7 @@ header{
     border-bottom: solid 10px darkslategrey;
 }
 
-.jumbotron{
-    background: url("/Images/skyline.jpg") no-repeat 0px -650px;
-    background-size: 100%;
-}
+
 /********BODY*******/
 
 .container{

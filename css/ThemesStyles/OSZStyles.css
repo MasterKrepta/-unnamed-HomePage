@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+}
+nav a img{
+    border-bottom: 2px solid;
+    
+}
+
+.jumbotron {
+    background: url("/Images/OrbitalStationZ/header.jpg") no-repeat;
+    background-position: center;
+    background-color: #375079;
+}
+.jumbotron h1 p {
+    color: white;
+}
+
+.features{
+    color: aqua;
+}
+footer{
+    color: white;
+    height: 100px;
+    background-color: black;
+}
+footer p {
+    padding-top: 25px;
+}
